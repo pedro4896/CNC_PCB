@@ -56,6 +56,6 @@ Para auxiliar no processo de montagem e calibração da máquina, assista à pla
 
 ## 🤝 Créditos e Licença
 
-*   Projeto original criado por **Nikodem Bartnik** ([Indystry.cc](https://www.instructables.com/DIY-3D-Printed-Dremel-CNC/)).
+*   Projeto original criado por **Nikodem Bartnik** ([Nikodem Bartnik](https://www.instructables.com/DIY-3D-Printed-Dremel-CNC/)).
 *   Firmware GRBL desenvolvido pela comunidade open-source.
 *   Este projeto é de código aberto para fins acadêmicos, de estudo e maker.
