@@ -47,8 +47,15 @@ Para guias detalhados sobre todas as fases de construção e operação do proje
 
 ---
 
+## 🎥 Vídeos e Tutoriais
+
+Para auxiliar no processo de montagem e calibração da máquina, assista à playlist oficial do projeto no YouTube:
+*   **[Playlist Oficial DIY Dremel CNC (YouTube)](https://www.youtube.com/watch?v=HpL547Ndej4&list=PL2WNyP4cr1yz_UZvhduWa3cA6ylVMLebW)** - Série de vídeos detalhados cobrindo a montagem física, eletrônica, calibração e os primeiros testes da máquina, produzidos pelo criador do projeto.
+
+---
+
 ## 🤝 Créditos e Licença
 
-*   Projeto original criado por **Nikodem Bartnik** ([Indystry.cc](https://indystry.cc/)).
+*   Projeto original criado por **Nikodem Bartnik** ([Indystry.cc](https://www.instructables.com/DIY-3D-Printed-Dremel-CNC/)).
 *   Firmware GRBL desenvolvido pela comunidade open-source.
 *   Este projeto é de código aberto para fins acadêmicos, de estudo e maker.
