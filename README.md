@@ -1,5 +1,7 @@
 # CNC PCB - DIY 3D Printed Dremel CNC
 
+![CNC PCB](Imagens/cnc.png)
+
 Este repositório contém os arquivos de firmware, modelos 3D para impressão e arquivos de projeto para a construção de uma fresadora CNC de precisão, ideal para a prototipagem rápida de Placas de Circuito Impresso (PCBs) e usinagem de materiais leves (MDF, acrílico, plásticos).
 
 O design mecânico e estrutural deste projeto é baseado na famosa máquina open-source **[DIY 3D Printed Dremel CNC](https://www.instructables.com/DIY-3D-Printed-Dremel-CNC/)** desenvolvida por **Nikodem Bartnik**.
