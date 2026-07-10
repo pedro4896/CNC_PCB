@@ -52,8 +52,7 @@ Para guias detalhados sobre todas as fases de construção e operação do proje
 ## 🎥 Vídeos e Tutoriais
 
 Para auxiliar no processo de montagem e calibração da máquina, assista à playlist oficial do projeto no YouTube:
-*   **[Playlist Oficial DIY Dremel CNC (YouTube)](https://www.youtube.com/watch?v=HpL547Ndej4&list=PL2WNyP4cr1yz_UZvhduWa3cA6ylVMLebW)** - Série de vídeos detalhados cobrindo a montagem física, eletrônica, calibração e os primeiros testes da máquina, produzidos pelo criador do projeto.
-
+*   **[Playlist Oficial DIY Dremel CNC (YouTube)](https://www.youtube.com/watch?v=HpL547Ndej4&list=PL2WNyP4cr1yz_UZvhduWa3cA6ylVMLebW)** - Série de vídeos ensinando a configurar uma CNC desse tipo.
 ---
 
 ## 🤝 Créditos e Licença
