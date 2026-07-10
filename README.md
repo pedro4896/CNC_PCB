@@ -10,9 +10,24 @@ O design mecânico e estrutural deste projeto é baseado na famosa máquina open
 
 ## 📂 Estrutura do Repositório
 
-*   📁 **`Firmware/`**: Contém o arquivo compactado `grbl-master.zip` com o código-fonte estável do **GRBL v0.9j** para gravação no Arduino Uno.
-*   📁 **`Modelo2D/`**: Desenhos 2D e layouts vetoriais para corte e furação de componentes.
-*   📁 **`Modelo3D/`**: Arquivos de modelo 3D (arquivos STL) das peças de fixação e suportes estruturais para serem fabricados via Impressão 3D.
+```text
+CNC_PCB/
+├── Firmware/             # Código-fonte do GRBL v0.9j compilado para gravação
+├── Imagens/              # Fotos, diagramas e renders do projeto
+├── Modelo2D/             # Vetores 2D (.DXF e .lbrn2 LightBurn) para corte/furação
+├── Modelo3D/             # Modelos STL e arquivo de projeto principal do Fusion 360
+│   ├── EixoX/            # STL das peças do conjunto do eixo X
+│   ├── EixoY/            # STL dos suportes de eixos e motores do eixo Y
+│   └── EixoZ/            # STL do conjunto do carro do eixo Z
+├── wiki/                 # Documentação local da Wiki do GitHub
+└── README.md             # Visão geral rápida do projeto
+```
+
+*   📁 **`Firmware/`**: Contém o arquivo compactado `grbl-master.zip` com o código-fonte estável do **GRBL v0.9j** pronto para envio ao Arduino Uno.
+*   📁 **`Imagens/`**: Fotos reais, renderizações 3D e diagramas de ligação eletrônica.
+*   📁 **`Modelo2D/`**: Arquivos vetoriais (`.dxf`, `.lbrn2`) para corte a laser da mesa e montagem da caixa protetora da eletrônica.
+*   📁 **`Modelo3D/`**: Contém o arquivo CAD principal em 3D (`cnc_Dremel.f3d`) compatível com Autodesk Fusion 360, além de todos os modelos individuais de impressão 3D em formato `.stl` divididos por eixos de atuação.
+*   📁 **`wiki/`**: Páginas de documentação detalhada (BOM, montagem física, esquema elétrico, calibração e operação).
 
 ---
 
