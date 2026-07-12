@@ -12,7 +12,7 @@ O design mecânico e estrutural deste projeto é baseado na famosa máquina open
 
 ```text
 CNC_PCB/
-├── Firmware/             # Código-fonte do GRBL v0.9j compilado para gravação
+├── Firmware/             # Instruções e diretório para gravação do firmware GRBL
 ├── Imagens/              # Fotos, diagramas e renders do projeto
 ├── Modelo2D/             # Vetores 2D (.DXF e .lbrn2 LightBurn) para corte/furação
 ├── Modelo3D/             # Modelos STL e arquivo de projeto principal do Fusion 360
@@ -23,7 +23,7 @@ CNC_PCB/
 └── README.md             # Visão geral rápida do projeto
 ```
 
-*   📁 **`Firmware/`**: Contém o arquivo compactado `grbl-master.zip` com o código-fonte estável do **GRBL v0.9j** pronto para envio ao Arduino Uno.
+*   📁 **`Firmware/`**: Pasta contendo instruções de download e instalação do firmware **GRBL v0.9j** (que deve ser baixado dos repositórios oficiais).
 *   📁 **`Imagens/`**: Fotos reais, renderizações 3D e diagramas de ligação eletrônica.
 *   📁 **`Modelo2D/`**: Arquivos vetoriais (`.dxf`, `.lbrn2`) para corte a laser da mesa e montagem da caixa protetora da eletrônica.
 *   📁 **`Modelo3D/`**: Contém o arquivo CAD principal em 3D (`cnc_Dremel.f3d`) compatível com Autodesk Fusion 360, além de todos os modelos individuais de impressão 3D em formato `.stl` divididos por eixos de atuação.
@@ -59,7 +59,7 @@ Para guias detalhados sobre todas as fases de construção e operação do proje
 1.  **Preparação Mecânica:** Imprima as peças localizadas em `Modelo3D/` e adquira as peças mecânicas listadas na página de BOM da Wiki.
 2.  **Montagem:** Siga o Guia de Montagem para estruturar a parte física e o chassi de alumínio 20x20.
 3.  **Configuração Eletrônica:** Conecte o Arduino, CNC Shield, A4988 (atente para a orientação física do potenciômetro metálico voltado para baixo!) e regule a tensão de $V_{ref}$ para cerca de `0.8V` a `0.9V` com um multímetro.
-4.  **Instalação do Firmware:** Extraia o `grbl-master.zip` da pasta `Firmware`, adicione a subpasta `grbl` interna à IDE do Arduino como biblioteca ZIP e grave o exemplo `grblUpload` em sua placa.
+4.  **Instalação do Firmware:** Baixe o firmware GRBL (link oficial nas instruções em `Firmware/README.md`), adicione a subpasta `grbl` interna à IDE do Arduino como biblioteca ZIP e grave o exemplo `grblUpload` em sua placa.
 5.  **Calibração e Teste:** Use o software Candle para enviar seus primeiros comandos de movimentação e calibrar a precisão dos eixos.
 
 ---
@@ -72,6 +72,7 @@ Para auxiliar no processo de montagem e calibração da máquina, assista à pla
 
 ## 🤝 Créditos e Licença
 
-*   Projeto original criado por **Nikodem Bartnik** ([Nikodem Bartnik](https://www.instructables.com/DIY-3D-Printed-Dremel-CNC/)).
-*   Firmware GRBL desenvolvido pela comunidade open-source.
-*   Este projeto é de código aberto para fins acadêmicos, de estudo e maker.
+Este projeto é de código aberto e está licenciado sob a licença **Apache License 2.0**. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+
+*   **Design Mecânico:** Baseado no projeto original de **Nikodem Bartnik** ([DIY 3D Printed Dremel CNC](https://www.instructables.com/DIY-3D-Printed-Dremel-CNC/)).
+*   **Firmware:** Utiliza o firmware open-source **GRBL** (desenvolvido pela comunidade e licenciado sob a GPLv3, que deve ser baixado separadamente).
